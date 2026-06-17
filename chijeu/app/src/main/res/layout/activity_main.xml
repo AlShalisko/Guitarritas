@@ -1,0 +1,152 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Modelo"/>
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Marca"/>
+
+    <EditText
+        android:id="@+id/etFabricante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Fabricante"/>
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:hint="Precio"/>
+
+    <EditText
+        android:id="@+id/etPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Pais"/>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Teléfono"/>
+
+    <Spinner
+        android:id="@+id/spTipoCuerpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner android:id="@+id/spTipoPastillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spPuente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner android:id="@+id/spMadera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spCuerdas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/creato"
+        android:text="Guardar"/>
+
+    <!--<Button
+        android:id="@+id/btnVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/creato"
+        android:text="Ver"/>-->
+
+</LinearLayout>

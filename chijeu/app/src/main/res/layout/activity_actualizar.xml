@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actualizar">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/etNombreG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Modelo"/>
+
+    <EditText
+        android:id="@+id/etMarcaG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Marca"/>
+
+    <EditText
+        android:id="@+id/etEmpresaG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Fabricante"/>
+
+    <EditText
+        android:id="@+id/etPrecioG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:hint="Precio"/>
+
+    <EditText
+        android:id="@+id/etPaisG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Pais"/>
+
+    <EditText
+        android:id="@+id/etTelefonoG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:fontFamily="@font/creato"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:hint="Teléfono"/>
+
+    <Spinner
+        android:id="@+id/spTipoCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner android:id="@+id/spTipoPastillas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spPuente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner android:id="@+id/spMadera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/spCuerdas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnQuesoAnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/creato"
+            android:text="&lt;-"/>
+
+        <Button
+            android:id="@+id/btnActualizarQueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/creato"
+            android:text="Actualizar Guitarra"/>
+
+        <Button
+            android:id="@+id/btnQuesoSig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/creato"
+            android:text="-&gt;"/>
+
+    </LinearLayout>
+
+</LinearLayout>

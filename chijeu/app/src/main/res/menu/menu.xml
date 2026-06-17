@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/iconEliminar"
+        android:title="Eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/iconCerrarSesion"
+        android:title="Cerrar Sesión"
+        android:icon="@drawable/logout"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item android:id="@+id/opc1" android:title="Registrar"/>
+    <item android:id="@+id/opc2" android:title="Ver"/>
+    <item android:id="@+id/opc3" android:title="Actualizar"/>
+    <item android:id="@+id/opc4" android:title="Creador"/>
+    <item android:id="@+id/opc5" android:title="Contacto"/>
+</menu>
